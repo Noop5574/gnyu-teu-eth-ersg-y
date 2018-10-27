@@ -27,3 +27,6 @@ client.user.setGame(`waleed.`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
+
+
+client.login(process.env.BOT_TOKEN);
